@@ -1,0 +1,102 @@
+  body{
+    margin: 0;
+ }
+ div{
+  box-sizing: border-box;
+ }
+ .container{
+    width:900px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(179, 179, 163);
+     
+  }
+ .box{
+    width: 100%;
+    height: 200px;
+    float: left;   
+    margin-bottom: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+ }
+  .box .img-box{
+   width: 40%;
+   height: 100%;
+   float: left;
+  }
+ .box .img-box img{
+    width: 100%;
+    height: 100%;
+    float: left;
+ }
+  .box .txt-box{
+   width: 58%;
+   height: 100%;
+   margin-left: 2%;
+   float: left;
+ }
+ .box .txt-box h1{
+   margin: 0;
+   font-size: 16px;
+ }
+ .box2{
+   width: 24.5%;
+   height: 420px;
+   float: left;
+   margin-left: 0.5%;
+   border: 2px solid yellowgreen;
+ }
+.box2 .img-box{
+   width: 100%;
+   height: 40%;
+   float: left;
+  }
+.box2 .img-box img{
+   width: 100%;
+   height: 100%;
+   float: left;
+   
+}
+.box2 .img-box iframe{
+   width: 100%;
+   height: 100%;
+   float: left;
+}
+.box2 .txt-box{
+   width: 100%;
+   height: 60%;
+   float: left;
+  
+}
+.box2 .txt-box h1{
+    font-size: 13px;
+    text-align: justify;
+}
+.menu{
+   width: 100%;
+   float: left;
+   background-color: orange;
+}
+.menu ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+.menu ul li{
+   float: left;
+}
+.menu ul li a{
+   display: block;
+   padding: 20px;
+   text-decoration: none;
+   font-size: 30px;
+}
+.menu ul li a:hover{
+   background-color: tomato;
+   color: black;
+   cursor: pointer;
+}
+
+
+
